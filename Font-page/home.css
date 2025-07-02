@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    min-height: 100vh;   
+    background: linear-gradient(-45deg, #0c0216, #30585e, #08172c, #121311);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+}
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.container{
+    /* display: flex; */
+    width: 100%;
+    /* display: inline-block; */
+}
+
+.container .nav-menu nav{
+    background-color: rgb(2, 43, 43);
+    width: 100%;
+    height: 80px;
+    /* display:  ; */
+    background: transparent;
+    position: relative;
+    display: flex;
+}
+.container .nav-menu nav img{
+    height: 50px;
+    width: 180px; 
+    border-radius: 10px;
+    margin: 12px;
+}
+.container .nav-menu nav a img{
+    border: 2px solid white;
+} 
+.container nav .login a{
+text-decoration: none;
+color: white;
+justify-content: center;
+text-align: center;
+display: flex;
+}
+.container nav .login{
+    position: absolute;
+    left: 84%;
+    top: 15px;
+    border: 1px solid white;
+    margin: 10px 0;
+    width: 60px;
+    height: 20px;
+}
+.container nav .register {
+    position: absolute;
+    left: 90%;
+    border: 1px solid white;
+    top: 15px;
+    margin: 10px 0;
+    width: 60px;
+    height: 20px;
+}
+.container nav .register a{
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.container .body{
+    height: 200px;
+    width: 600px;
+    margin: 80px 60px;
+    /* display: flex; */
+    position: relative;
+}
+.container .body h1{
+    color: rgb(106, 160, 167);
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    /* align-items: center; */
+    justify-content: center;
+    display: flex;
+    font-size: 60px;
+}
+.container .body p{
+    color: rgb(163, 175, 175);
+    /* letter-spacing: 5px; */
+    word-spacing: 5px;
+}
+.container .bd-image{
+   margin-left: 65%;
+   margin-top: -250px;
+   /* position: absolute; */
+   display: flex;
+}
+.container .bd-image img{
+  height: 300px;
+  width: 300px;
+}
